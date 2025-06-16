@@ -1,0 +1,35 @@
+[
+  {
+    "event": "start",
+    "time": "2025-06-16T22:07:56.007405+00:00"
+  },
+  {
+    "event": "bandit",
+    "output": "Run started:2025-06-16 22:07:56.471563\n\nTest results:\n>> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.\n   Severity: Low   Confidence: High\n   C"
+  },
+  {
+    "event": "sanitize",
+    "removed": 0
+  },
+  {
+    "event": "anomaly_detected",
+    "count": 1
+  },
+  {
+    "event": "explain",
+    "file": "explanations.json"
+  },
+  {
+    "event": "bias_audit",
+    "file": "bias_audit.json"
+  },
+  {
+    "event": "encrypt",
+    "file": "enc_data.bin",
+    "count": 20
+  },
+  {
+    "event": "end",
+    "time": "2025-06-16T22:07:56.593291+00:00"
+  }
+]
