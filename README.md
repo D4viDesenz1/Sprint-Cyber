@@ -1,4 +1,3 @@
-`markdown
 # GoldenGuard
 
 ## 👥 Participantes
@@ -73,15 +72,15 @@
 
 ### Instalar dependências
 
-bash
+```bash
 pip install pandas numpy scikit-learn cryptography PyJWT bandit pyotp
-`
+````
 
 ### Executar o script
 
-bash
+```bash
 python goldenguard.py --income 5000 --consent yes --export-clean --delete-crypt
-
+```
 
 * Insira o código **MFA** de 6 dígitos quando solicitado.
 * O pipeline exibirá o status de cada etapa no terminal.
@@ -100,7 +99,7 @@ python goldenguard.py --income 5000 --consent yes --export-clean --delete-crypt
 
 ## 📁 Estrutura de Arquivos
 
-plaintext
+```plaintext
 extrato.csv             # Entrada de transações
 goldenguard.py          # Script principal
 secret.key              # Chave Fernet para criptografia
@@ -111,5 +110,5 @@ clean_data.csv          # CSV sanitizado (opcional)
 enc_data.bin            # Dados de apostas criptografados
 explanations.json       # Explicações de importância das transações
 bias_audit.json         # Taxas de anomalias por descrição
-audit_trail.json        # Registro de todas as ações do pipeline
+audit_trail.json        # Registro de todas as ações do pipeline
 ```
